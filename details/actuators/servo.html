@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bento Box Design</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto auto;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .box {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 40px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .box-large {
+            grid-column: 1 / -1;
+        }
+        h1 {
+            margin-top: 0;
+            font-size: 24px;
+        }
+        p {
+            color: #666;
+        }
+        .price {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .box img {
+            width: 300px;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="picsum.photo/300/400" alt="Placeholder image" style="width:100%;height:auto;"/>
+        </div>
+        <div class="box">
+            <h1>Lorem Ipsum.</h1>
+            <p>Lorem ipsum dolor sit amet, nor dilis su mat kei po.</p>
+            <div class="price">$0</div>
+            <a href="#" class="button">Button</a>
+        </div>
+        <div class="box box-large">
+            <h2>Component details</h2>
+            <p>Additional details about the component would go here.</p>
+        </div>
+    </div>
+</body>
+</html>
