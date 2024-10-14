@@ -71,11 +71,11 @@ nav {
     color: #1e1e1e
 }
 
-#hero {
+#home {
     display: flex;
     margin: 60px;
 }
-#hero h1 {
+#home h1 {
     font-size: 86px;
 }
 
@@ -103,12 +103,12 @@ nav {
     flex-direction: column;
 }
 
-.hero-image {
+.home-image {
    width: 568px;
    height: 708px;
 }
 
-.hero-image img {
+.home-image img {
     border-radius: 16px;
 }
 
